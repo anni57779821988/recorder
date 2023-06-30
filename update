@@ -783,32 +783,3 @@ async function requestLoraModels() {
     const lora_models = await api.requestGet(full_url)
     return lora_models
 }
-module.exports = {
-    requestTxt2Img,
-    requestImg2Img,
-    getInitImage,
-    requestProgress,
-    requestGetModels,
-    requestSwapModel,
-    requestInterrupt,
-    requestGetSamplers,
-    getVersionRequest,
-    changeSdUrl,
-    loadPromptShortcut,
-    savePromptShortcut,
-    loadHistory,
-    setInpaintMaskWeight,
-    requestGetConfig,
-    requestGetOptions,
-    imageSearch,
-    requestSavePng,
-    // requestHorde,
-    // requestHordeCheck,
-    // requestHordeStatus,
-    requestExtraSingleImage,
-    requestGetUpscalers,
-    requestControlNetTxt2Img,
-    requestControlNetImg2Img,
-    isWebuiRunning,
-    requestLoraModels,
-}
